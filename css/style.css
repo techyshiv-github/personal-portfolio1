@@ -23,7 +23,7 @@ section {
     width: 80%;
 }
 
-.button-calltoaction {
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 25px;
