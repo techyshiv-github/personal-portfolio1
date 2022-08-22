@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -54,4 +55,45 @@ section {
 
 .dream-big img {
     width: 100%;
+}
+
+.experience-area {
+    margin-top: 150px;
+    padding-left: 2%;
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+}
+
+.experience-level {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 40px rgba(105, 105, 105, 0.223);
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+#full-stack-developer {
+    border-left: 10px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 10px solid blue;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    margin-bottom: -50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
